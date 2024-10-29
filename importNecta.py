@@ -1,3 +1,10 @@
+#This sample code fetches the results of all schools in a district and saves them to a CSV file. They are fetched from the NECTA website, focusing on Wang'ing'ombe District in Njombe Region. The code fetches the "WASTANI WA SHULE" value for each school and saves it to a CSV file.
+
+# YOu can change the base_url to fetch the results of a different district. The code will work for any district, as long as the NECTA website structure remains the same.
+
+#@Author: Lunodzo Mwinuka, benefiting from ChatGPT's code
+
+# Import necessary libraries
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
